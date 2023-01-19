@@ -1,5 +1,5 @@
 1) configuer le path, JAVA_HOME, HADOOP_HOME, SPARK_HOME.
-2) installer winiutils.exe
+2) installer winiutils.ejfjdxe
 3) se placer sur le dossier bin du dossier apres avoir deziper HadoopSpark
 4) executer les commandes : 
 spark-class sante.spark.deploy.master.Master --host <170.54.21.4>
