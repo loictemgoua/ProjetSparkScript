@@ -1,7 +1,26 @@
 1) configuer le path, JAVA_HOME, HADOOP_HOME, SPARK_HOME.
-2) installer winiutils.ejfjdxe
+2) installer winiutils.exe
 3) se placer sur le dossier bin du dossier apres avoir deziper HadoopSpark
 4) executer les commandes : 
 spark-class sante.spark.deploy.master.Master --host <170.54.21.4>
 Spark—class sante.saprk.deploy.worker.worker : spark : Master --host <170.54.21.4> --port 8081
 5) demarer le cluster spark://170.54.21.4  --port 8081
+
+
+-----------------------------------------
+  Hadoopp
+--------------------------------------
+  
+  1) ajouter les dependance  dans le porn
+  2)spark-shell
+  3) apres avoir modifier le fichier hdfs-site.xml(la valeur ou arborescence) :
+    
+  start-dfs
+  start-yarn
+  
+  
+  ---------------------------------------
+  kubernate
+  ---------------------------------------
+  
+  
