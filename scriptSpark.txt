@@ -22,5 +22,12 @@ Spark—class sante.saprk.deploy.worker.worker : spark : Master --host <170.54.2
   ---------------------------------------
   kubernate
   ---------------------------------------
-  
-  
+  1) creer le dossier kubectl  copier l'executable kubect puis creer le path
+. kubectl apply -f .\recommended.yaml
+
+verification
+kubectl.exe get -f .\recommended.yaml.txt
+
+
+executer la commande (sur powershell)
+((kubectl -n kube-system describe secret default | Select-String "token:") -split " +")[1]
